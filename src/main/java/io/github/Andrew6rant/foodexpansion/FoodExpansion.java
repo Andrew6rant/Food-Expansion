@@ -17,10 +17,10 @@ public class FoodExpansion implements ModInitializer {
 	}
 
 	public static Item bacon = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP)
-		.food((new FoodComponent.Builder()).hunger(1).saturationModifier(0.3F).meat().snack().build()));
+		.food((new FoodComponent.Builder()).hunger(1).saturationModifier(0.2F).meat().snack().build()));
 
 	public static Item bacon_and_egg = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP)
-		.food((new FoodComponent.Builder()).hunger(7).saturationModifier(0.6F).build()));
+		.food((new FoodComponent.Builder()).hunger(7).saturationModifier(0.8F).build()));
 
 	public static Item bat_soup = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
 
