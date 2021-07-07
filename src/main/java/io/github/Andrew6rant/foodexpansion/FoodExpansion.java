@@ -2,9 +2,7 @@ package io.github.Andrew6rant.foodexpansion;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -18,45 +16,123 @@ public class FoodExpansion implements ModInitializer {
 		Registry.register(Registry.ITEM, new Identifier("foodexpansion", itemName), item);
 	}
 
-	public static Item bacon = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
-	public static Item bacon_and_egg = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item bacon = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP)
+		.food((new FoodComponent.Builder()).hunger(1).saturationModifier(0.3F).meat().snack().build()));
+
+	public static Item bacon_and_egg = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP)
+		.food((new FoodComponent.Builder()).hunger(7).saturationModifier(0.6F).build()));
+
 	public static Item bat_soup = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item bat_wing = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item beetroot_noodles = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item blaze_cream = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item cactus_fruit = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item carrot_pie = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item carrot_seed_soup = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item chocolate_bar = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item compressed_flesh = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item cooked_bacon = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item cooked_bat_wing = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item cooked_horse_meat = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item cooked_llama_meat = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item cooked_mushroom = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item cooked_ocelot_meat = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item cooked_parrot_meat = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item cooked_polar_bear_meat = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item cooked_squid = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item cooked_wolf_meat = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item dough = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item forbidden_fruit = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item fried_egg = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item golden_feast = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item horse_meat = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item jelly = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item llama_meat = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item lollipop = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item melon_salad = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item nether_wart_soup = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item ocelot_meat = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item parrot_meat = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item polar_bear_meat = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item roasted_seed = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item spider_soup = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item squid = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item starving_fruit = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item veggie_stew = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
+
 	public static Item wolf_meat = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
 
 
