@@ -42,6 +42,23 @@ public class FoodExpansion implements ModInitializer {
 	public static Item dough = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
 	public static Item forbidden_fruit = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
 	public static Item fried_egg = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item golden_feast = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item horse_meat = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item jelly = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item llama_meat = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item lollipop = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item melon_salad = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item nether_wart_soup = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item ocelot_meat = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item parrot_meat = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item polar_bear_meat = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item roasted_seed = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item spider_soup = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item squid = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item starving_fruit = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item veggie_stew = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item wolf_meat = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
 
 
 	@Override
@@ -70,6 +87,21 @@ public class FoodExpansion implements ModInitializer {
 		registerItem(ItemNames.DOUGH, dough);
 		registerItem(ItemNames.FORBIDDEN_FRUIT, forbidden_fruit);
 		registerItem(ItemNames.FRIED_EGG, fried_egg);
-
+		registerItem(ItemNames.GOLDEN_FEAST, golden_feast);
+		registerItem(ItemNames.HORSE_MEAT, horse_meat);
+		registerItem(ItemNames.JELLY, jelly);
+		registerItem(ItemNames.LLAMA_MEAT, llama_meat);
+		registerItem(ItemNames.LOLLIPOP, lollipop);
+		registerItem(ItemNames.MELON_SALAD, melon_salad);
+		registerItem(ItemNames.NETHER_WART_SOUP, nether_wart_soup);
+		registerItem(ItemNames.OCELOT_MEAT, ocelot_meat);
+		registerItem(ItemNames.PARROT_MEAT, parrot_meat);
+		registerItem(ItemNames.POLAR_BEAR_MEAT, polar_bear_meat);
+		registerItem(ItemNames.ROASTED_SEED, roasted_seed);
+		registerItem(ItemNames.SPIDER_SOUP, spider_soup);
+		registerItem(ItemNames.SQUID, squid);
+		registerItem(ItemNames.STARVING_FRUIT, starving_fruit);
+		registerItem(ItemNames.VEGGIE_STEW, veggie_stew);
+		registerItem(ItemNames.WOLF_MEAT, wolf_meat);
 	}
 }

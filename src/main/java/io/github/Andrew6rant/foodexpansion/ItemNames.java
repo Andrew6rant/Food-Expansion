@@ -25,4 +25,20 @@ public class ItemNames {
     public static final String DOUGH = "dough";
     public static final String FORBIDDEN_FRUIT = "forbidden_fruit";
     public static final String FRIED_EGG = "fried_egg";
+    public static final String GOLDEN_FEAST = "golden_feast";
+    public static final String HORSE_MEAT = "horse_meat";
+    public static final String JELLY = "jelly";
+    public static final String LLAMA_MEAT = "llama_meat";
+    public static final String LOLLIPOP = "lollipop";
+    public static final String MELON_SALAD = "melon_salad";
+    public static final String NETHER_WART_SOUP = "nether_wart_soup";
+    public static final String OCELOT_MEAT = "ocelot_meat";
+    public static final String PARROT_MEAT = "parrot_meat";
+    public static final String POLAR_BEAR_MEAT = "polar_bear_meat";
+    public static final String ROASTED_SEED = "roasted_seed";
+    public static final String SPIDER_SOUP = "spider_soup";
+    public static final String SQUID = "squid";
+    public static final String STARVING_FRUIT = "starving_fruit";
+    public static final String VEGGIE_STEW = "veggie_stew";
+    public static final String WOLF_MEAT = "wolf_meat";
 }
