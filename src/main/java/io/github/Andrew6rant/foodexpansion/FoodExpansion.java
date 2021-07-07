@@ -19,9 +19,57 @@ public class FoodExpansion implements ModInitializer {
 	}
 
 	public static Item bacon = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item bacon_and_egg = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item bat_soup = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item bat_wing = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item beetroot_noodles = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item blaze_cream = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item cactus_fruit = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item carrot_pie = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item carrot_seed_soup = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item chocolate_bar = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item compressed_flesh = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item cooked_bacon = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item cooked_bat_wing = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item cooked_horse_meat = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item cooked_llama_meat = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item cooked_mushroom = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item cooked_ocelot_meat = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item cooked_parrot_meat = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item cooked_polar_bear_meat = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item cooked_squid = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item cooked_wolf_meat = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item dough = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item forbidden_fruit = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+	public static Item fried_egg = new Item(new Item.Settings().group(FoodExpansion.ITEM_GROUP));
+
 
 	@Override
 	public void onInitialize() {
 		registerItem(ItemNames.BACON, bacon);
+		registerItem(ItemNames.BACON_AND_EGG, bacon_and_egg);
+		registerItem(ItemNames.BAT_SOUP, bat_soup);
+		registerItem(ItemNames.BAT_WING, bat_wing);
+		registerItem(ItemNames.BEETROOT_NOODLES, beetroot_noodles);
+		registerItem(ItemNames.BLAZE_CREAM, blaze_cream);
+		registerItem(ItemNames.CACTUS_FRUIT, cactus_fruit);
+		registerItem(ItemNames.CARROT_PIE, carrot_pie);
+		registerItem(ItemNames.CARROT_SEED_SOUP, carrot_seed_soup);
+		registerItem(ItemNames.CHOCOLATE_BAR, chocolate_bar);
+		registerItem(ItemNames.COMPRESSED_FLESH, compressed_flesh);
+		registerItem(ItemNames.COOKED_BACON, cooked_bacon);
+		registerItem(ItemNames.COOKED_BAT_WING, cooked_bat_wing);
+		registerItem(ItemNames.COOKED_HORSE_MEAT, cooked_horse_meat);
+		registerItem(ItemNames.COOKED_LLAMA_MEAT, cooked_llama_meat);
+		registerItem(ItemNames.COOKED_MUSHROOM, cooked_mushroom);
+		registerItem(ItemNames.COOKED_OCELOT_MEAT, cooked_ocelot_meat);
+		registerItem(ItemNames.COOKED_PARROT_MEAT, cooked_parrot_meat);
+		registerItem(ItemNames.COOKED_POLAR_BEAR_MEAT, cooked_polar_bear_meat);
+		registerItem(ItemNames.COOKED_SQUID, cooked_squid);
+		registerItem(ItemNames.COOKED_WOLF_MEAT, cooked_wolf_meat);
+		registerItem(ItemNames.DOUGH, dough);
+		registerItem(ItemNames.FORBIDDEN_FRUIT, forbidden_fruit);
+		registerItem(ItemNames.FRIED_EGG, fried_egg);
+
 	}
 }
